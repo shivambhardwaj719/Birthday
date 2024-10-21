@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.bg_heart {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("images/harshi.png");
+    background-size: cover;
+    z-index: -1;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-family: cursive;
+}
+
+.heart {
+    position: absolute;
+    top: -50%;
+    transform: rotate(-45deg);
+}
+
+.heart:before, .heart:after {
+    content: "";
+    position: absolute;
+    display: block;
+    background: inherit;
+    border-radius: 100%;
+}
+
+.heart:before {
+    top: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.heart:after {
+    top: 0;
+    right: -50%;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes love {
+    0% { top: 110%; }
+}
