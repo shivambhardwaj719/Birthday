@@ -12,6 +12,7 @@ html, body {
     overflow: hidden;
     background-image: url("images/harshi.png");
     background-size: cover;
+    background-position: center;
     z-index: -1;
 }
 
@@ -22,7 +23,7 @@ html, body {
     height: 100%;
     width: 100%;
     text-align: center;
-    color: red;
+    color: purple;
     font-family: cursive;
 }
 
